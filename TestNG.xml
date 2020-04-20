@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Testing">
+	<test name="smoketesting">
+		<groups>
+			<run>
+				<!-- <include name="smoketesting"></include> -->
+				<include name="IntegrationTesting"></include>
+				<include name="sanitytesting"></include>
+				<!-- <exclude name="sanitytesting"></exclude> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="ClassWorkMaven.TestNG.Groups">
+			</class>
+		</classes>
+	</test>
+</suite>

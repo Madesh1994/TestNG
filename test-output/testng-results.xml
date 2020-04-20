@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21788" started-at="2019-12-15T18:29:16 IST" finished-at="2019-12-15T18:29:38 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21788" started-at="2019-12-15T18:29:16 IST" finished-at="2019-12-15T18:29:38 IST">
+      <class name="ClassWorkMaven.TestNG.HRMTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ClassWorkMaven.TestNG.HRMTestNG@72b6cbcc]" name="setUp" is-config="true" duration-ms="10118" started-at="2019-12-15T18:29:16 IST" finished-at="2019-12-15T18:29:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:ClassWorkMaven.TestNG.HRMTestNG@72b6cbcc]" name="signIn" duration-ms="5019" started-at="2019-12-15T18:29:27 IST" finished-at="2019-12-15T18:29:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="userSignOut()[pri:0, instance:ClassWorkMaven.TestNG.HRMTestNG@72b6cbcc]" name="userSignOut" duration-ms="4541" started-at="2019-12-15T18:29:32 IST" depends-on-methods="ClassWorkMaven.TestNG.HRMTestNG.signIn" finished-at="2019-12-15T18:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSignOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ClassWorkMaven.TestNG.HRMTestNG@72b6cbcc]" name="tearDown" is-config="true" duration-ms="1981" started-at="2019-12-15T18:29:36 IST" finished-at="2019-12-15T18:29:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ClassWorkMaven.TestNG.HRMTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
